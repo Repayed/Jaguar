@@ -1,0 +1,8 @@
+name: Jaguar
+main: me.repayed.jaguar.Jaguar
+version: 1.0-SNAPSHOT
+author: Repayed
+commands:
+  links:
+    usage: /links
+    description: short
