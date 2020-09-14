@@ -1,4 +1,4 @@
-# Jaguar Inventory API (sort-a) 
+# Jaguar Inventory Library (Incomplete)
 
 This project was designed to make gui making easier, and cleaner,
 it's nowhere near done, and it contains a bunch of quick fixes, and all
