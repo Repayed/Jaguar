@@ -1,6 +1,6 @@
 package me.repayed.jaguar.menu;
 
-public enum MenuRows {
+public enum MenuSize {
     ONE_ROW(9),
     TWO_ROWS(18),
     THREE_ROWS(27),
@@ -10,7 +10,7 @@ public enum MenuRows {
 
     private int size;
 
-    MenuRows(int size) {
+    MenuSize(int size) {
         this.size = size;
     }
 

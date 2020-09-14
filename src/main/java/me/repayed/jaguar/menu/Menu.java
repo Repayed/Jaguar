@@ -7,12 +7,19 @@ import org.bukkit.inventory.Inventory;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Abstract menu class which is what allows
+ * for the creation of the menu.
+ *
+ * It stores the menu, and the list of clickable items it has.
+ */
+
 public abstract class Menu {
     private Inventory inventory;
     private List<MenuItem> menuItemList;
 
-    public Menu(String name, MenuRows menuRows) {
-        this.inventory = Bukkit.createInventory(null, menuRows.getSize(), name);
+    public Menu(String name, MenuSize menuSize) {
+        this.inventory = Bukkit.createInventory(null, menuSize.getSize(), name);
         this.menuItemList = new ArrayList<>();
     }
 

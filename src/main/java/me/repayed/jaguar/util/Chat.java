@@ -1,4 +1,4 @@
-package me.repayed.jaguar.utils;
+package me.repayed.jaguar.util;
 
 import org.bukkit.ChatColor;
 

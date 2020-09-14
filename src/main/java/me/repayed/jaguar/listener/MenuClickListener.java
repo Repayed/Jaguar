@@ -1,4 +1,4 @@
-package me.repayed.jaguar.listeners;
+package me.repayed.jaguar.listener;
 
 import me.repayed.jaguar.menu.MenuHandler;
 import org.bukkit.entity.Player;
@@ -12,7 +12,7 @@ import org.bukkit.inventory.meta.ItemMeta;
 public class MenuClickListener implements Listener {
 
     @EventHandler
-    public void onMenuClick(InventoryClickEvent event) {
+    public void onMenuClick(final InventoryClickEvent event) {
         final Inventory clickedInventory = event.getClickedInventory();
         final ItemStack clickedItem = event.getCurrentItem();
 

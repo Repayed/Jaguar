@@ -29,7 +29,7 @@ public class MenuItem {
         getClickable().click(player);
     }
 
-    public void setClickable(Clickable clickable) {
+    public void setClickListener(Clickable clickable) {
         this.clickable = clickable;
     }
 

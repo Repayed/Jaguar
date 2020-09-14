@@ -1,7 +1,7 @@
 package me.repayed.jaguar;
 
 import me.repayed.jaguar.examplemenu.LinksCommand;
-import me.repayed.jaguar.listeners.MenuClickListener;
+import me.repayed.jaguar.listener.MenuClickListener;
 import me.repayed.jaguar.menu.MenuHandler;
 import me.repayed.jaguar.examplemenu.SocialLinksMenu;
 import org.bukkit.plugin.java.JavaPlugin;
